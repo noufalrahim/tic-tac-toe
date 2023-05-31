@@ -1,0 +1,224 @@
+body{
+    background-color: #011F3F;
+}
+.title{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-size: 50px;
+}
+
+hr{
+    padding: none;
+    height: 20px;
+    
+}
+
+.tiles{
+    
+    text-align: center;
+    
+}
+
+h1{
+    color: white;
+}
+
+.tiletop{
+    padding-top: 50px;
+    
+}
+
+.btn{
+    height: 120px;
+    width: 120px;
+    /*margin: 5px;*/
+    background-color: #011F3F;
+    margin-left: 12px;
+    margin-right: 12px;
+    border: none;
+       
+    
+}
+.tiles{
+    display: flex;
+    justify-content: center;
+}
+.horizontal{
+    color: white;
+    background-color: white;
+    width: 450px;
+    height: 15px;
+    z-index: -1;
+    
+}
+.vertical1{
+    color: white;
+    background-color: white;
+    width: 15px;
+    
+    margin: 0px;
+    position: absolute;
+    margin-left: 150px;
+    height: 435px;
+    z-index: 1;
+}
+.vertical2{
+    color: white;
+    background-color: white;
+    width: 15px;
+    z-index: 1;
+    margin: 0px;
+    position: absolute;
+    margin-right: 150px;
+    height: 435px;
+    z-index: 1;
+}
+
+.newdiagonel1{
+    transform: rotate(45deg);
+    
+    color: white;
+    background-color: white;
+    width: 450px;
+    margin: 0px;
+    position: absolute;
+    height: 3px;
+    z-index: 1;
+    margin-top: 215px;
+    opacity: 0;
+}
+.newdiagonel2{
+    transform: rotate(135deg);
+    color: white;
+    background-color: white;
+    width: 450px;
+    margin: 0px;
+    position: absolute;
+    height: 3px;
+    z-index: 1;
+    margin-top: 215px;
+    opacity: 0;
+
+}
+
+.pressed {
+    box-shadow: 0 0 20px white;
+    background-color: grey;
+  }
+.over{
+    
+    opacity: 0.5;
+    
+    
+}
+.newhorizontal1{
+   
+    
+    color: white;
+
+    background-color: white;
+    width: 350px;
+    margin: 0px;
+    position: absolute;
+    height: 3px;
+    z-index: 1;
+    margin-top: 60px;
+    opacity: 0;
+
+}
+.newhorizontal2{
+    color: white;
+    background-color: white;
+    width: 350px;
+    margin: 0px;
+    position: absolute;
+    height: 3px;
+    z-index: 1;
+    margin-top: 212px;
+    opacity: 0;
+
+}
+.newhorizontal3{
+    color: white;
+    background-color: white;
+    width: 350px;
+    margin: 0px;
+    position: absolute;
+    height: 3px;
+    z-index: 1;
+    margin-top: 364px;
+    opacity: 0;
+}
+
+.newvertical1{
+    color: white;
+    background-color: white;
+    width: 3px;
+    margin: 0px;
+    position: absolute;
+    height: 335px;
+    z-index: 1;
+    margin-right: 288px;
+    opacity: 0;
+    margin-top: 50px;
+}
+.newvertical2{
+    color: white;
+    background-color: white;
+    width: 3px;
+    margin: 0px;
+    position: absolute;
+    height: 335px;
+    z-index: 1;
+    margin-right: 0;
+    opacity: 0;
+    margin-top: 50px;
+}
+.newvertical3{
+    color: white;
+    background-color: white;
+    width: 3px;
+    margin: 0px;
+    position: absolute;
+    height: 335px;
+    z-index: 1;
+    margin-left: 288px;
+    opacity: 0;
+    margin-top: 50px;
+}
+
+.gotomenubtn1{
+    position: relative;
+    left: 35%;
+    margin-top: 3%;
+    margin-left: 0%;
+    padding: 1% 4%;
+    border-radius: 50%;
+    background-color: green;
+    border-color: wheat;
+    display: inline-block;
+}
+.gotomenutext{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    
+}
+.playagainbtn1{
+    position: relative;
+    left: 50%;
+    top:-95px;
+    padding: 1% 4%;
+    border-radius: 50%;
+    background-color: green;
+    border-color: wheat;
+    display: inline-block;
+}
+.playagaintext{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    
+}
+  
